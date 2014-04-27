@@ -11,5 +11,5 @@ Currently there are the following Scripts:
  * **ToggleSecHDD.scpt**: enable the secondary HDD if it's disabled and disable it otherwise.
  * **TurnOnSafeSleep.scpt**: force-enable Safe Sleep for any reasonably recent Mac. Safe Sleep sets your Mac to hibernate mode after an hour sleeping. This can be used to save some battery.
  
+**NOTE:**: some of these scripts run some commands which require administrative privileges. Typically this is done by running a command `with administrator privileges`, which shows a password dialog. Since I wanted to automate these scripts execution (e.g. on Startup, on Wake), I used `sudo` and set up my sudoers file with NOPASSWD permissions for these specific commands.
 
-You can also find them compiled into Apps in the apps dir. You should install them into your ~/Applications dir to use them.
